@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>Sonuç</title></head>
+<body>
+  <h2>Sonuçlar:</h2>
+  {% for row in results %}
+    <p>ID: {{ row[0] }} - Kullanıcı Adı: {{ row[1] }}</p>
+  {% endfor %}
+</body>
+</html>
